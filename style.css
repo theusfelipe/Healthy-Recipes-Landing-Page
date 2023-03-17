@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+body {
+    background-image: url(./assets/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+     
+    text-align: center;  
+    font-family: 'Spectral', serif;
+    color: #EBF1FB;
+    display:grid;
+    place-content: center;
+    
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px; 
+    
+    font-family: 'Beth Ellen', cursive;
+}
+
+ h1 span {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+    color: #5EEAD4; 
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    font-weight: 500;
+    margin-bottom: 72px;
+
+}
+
+a {
+    line-height:24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #EBF1FB;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-decoration-line:underline ;  
+}
+
+
+
+
+a:hover,
+.btn-primary {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px; 
+    color: #0B0C0E;
+    border-radius: 8px;
+    background:#5EEAD4 ;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.btn-primary:hover {
+    background:#8dd4ca ;
+}
